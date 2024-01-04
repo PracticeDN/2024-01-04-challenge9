@@ -1,0 +1,46 @@
+body {
+  margin: 30px;
+  background-color: rgb(233, 179, 79);
+}
+
+h2,
+p {
+  margin: 0;
+}
+
+.container {
+  width: 100%;
+  background-color: white;
+  margin: 0 auto;
+  border-radius: 10px;
+  display: flex;
+}
+.container .side-bar {
+  width: 20%;
+  padding: 20px;
+  background-color: rgb(63, 206, 63);
+  border-radius: 10px 0 0 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.container .side-bar .side-bar-title {
+  margin-bottom: 20px;
+}
+.container .main {
+  padding: 20px;
+}
+.container .main .title {
+  margin-bottom: 20px;
+}
+.container .main .content {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.container .main .content img {
+  width: 30px;
+  height: 30px;
+}
+
+/*# sourceMappingURL=main.css.map */
